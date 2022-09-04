@@ -28,7 +28,7 @@ div.nav-logo{
 }
 
 div.nav-logo img{
-   width: 100px;
+   width: 120px;
 }
 
 ul.list-items{
@@ -63,6 +63,12 @@ div.line{
     
     div.navbar{
         justify-content: space-evenly;
+    }
+
+    ul.list-items{
+        gap: 40px;
+        margin-right: 10px;
+        font-size: 12px;
     }
 }
 
@@ -314,9 +320,19 @@ div.img img{
 }
 
 @media only screen and (max-width: 800px){
-    .bottom-quote{
+    div.bottom ul{
         display: none;
     }
     
-    
+    .bottom-quote{
+        left: 35%;
+    }
+
+    div.img img{
+        width: 340px;   
+    }
+
+    .bottom-quote p {
+        font-size: 12px;
+    }
 }
